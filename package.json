@@ -1,0 +1,13 @@
+{
+  "name": "AdbToolsElectron",
+  "version": "1.0.0",
+  "description": "A adb desktop client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naman14/AdbToolsElectron.git"
+  }
+}
