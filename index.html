@@ -3,25 +3,15 @@
   <head>
     <title>Hello World!</title>
 
-    <script src="shell.js"></script>
+
+    <script src="devices.js"></script>
   </head>
   <body>
 
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-
     <button type="button"
-    onclick="clicked()">FAISAL!!!!</button>
+    onclick="getAdbDevices()">FAISAL!!!!</button>
 
     <p id="devices"/>
 
-    <script>
-    function clicked() {
-      console.log("lol");
-      getNumberOfDevices();
-    }
-    </script>
   </body>
 </html>
