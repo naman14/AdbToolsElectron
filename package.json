@@ -9,5 +9,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/naman14/AdbToolsElectron.git"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.0.2"
   }
 }
